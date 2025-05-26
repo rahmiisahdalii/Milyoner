@@ -1,0 +1,870 @@
+[
+  {
+    "category": "GeneralKnowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Türkiye'nin en kalabalık şehri hangisidir?",
+    "correct_answer": "İstanbul",
+    "incorrect_answers": ["Ankara", "İzmir", "Bursa"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Havlayan ve genellikle evcil hayvan olarak beslenen hayvan hangisidir?",
+    "correct_answer": "Köpek",
+    "incorrect_answers": ["Kedi", "Kuş", "Balık"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Dünya üzerinde kaç kıta bulunmaktadır?",
+    "correct_answer": "7",
+    "incorrect_answers": ["5", "6", "8"]
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Futbolda bir takımda kaç oyuncu sahada yer alır?",
+    "correct_answer": "11",
+    "incorrect_answers": ["9", "10", "12"]
+  },
+  {
+    "category": "ScienceAndNature",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "İnsan vücudunda kaç tane duyu organı vardır?",
+    "correct_answer": "5",
+    "incorrect_answers": ["3", "4", "6"]
+  },
+  {
+    "category": "Music",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Gitar genellikle kaç telli bir çalgıdır?",
+    "correct_answer": "6",
+    "incorrect_answers": ["4", "5", "7"]
+  },
+  {
+    "category": "Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Pamuk Prenses masalındaki kötü kraliçenin sihirli aynasına sorduğu ünlü soru nedir?",
+    "correct_answer": "Ayna ayna söyle bana, benden daha güzeli var mı bu dünyada?",
+    "incorrect_answers": [
+      "Ayna ayna söyle bana, en güçlü kim bu dünyada?",
+      "Ayna ayna söyle bana, en zengin kim bu dünyada?",
+      "Ayna ayna söyle bana, en akıllı kim bu dünyada?"
+    ]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Türkiye Cumhuriyeti'nin kurucusu kimdir?",
+    "correct_answer": "Mustafa Kemal Atatürk",
+    "incorrect_answers": ["İsmet İnönü", "Fevzi Çakmak", "Kazım Karabekir"]
+  },
+  {
+    "category": "Mathematics",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Bir düzine kaç adettir?",
+    "correct_answer": "12",
+    "incorrect_answers": ["10", "15", "20"]
+  },
+  {
+    "category": "Vehicles",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "İki tekerleği olan ve pedal çevirerek hareket ettirilen ulaşım aracı hangisidir?",
+    "correct_answer": "Bisiklet",
+    "incorrect_answers": ["Motosiklet", "Araba", "Otobüs"]
+  },
+  {
+    "category": "Art",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Resim yapmak için kullanılan renkli çubuklara ne ad verilir?",
+    "correct_answer": "Boya kalemi",
+    "incorrect_answers": ["Kurşun kalem", "Tükenmez kalem", "Fırça"]
+  },
+  {
+    "category": "Books",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "'Kırmızı Başlıklı Kız' masalında, kızı ve büyükannesini kurtaran kimdir?",
+    "correct_answer": "Oduncu",
+    "incorrect_answers": ["Avcı", "Prens", "Kurt"]
+  },
+  {
+    "category": "Television",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Çizgi filmlerde genellikle peynire düşkünlüğüyle bilinen küçük fare karakteri kimdir?",
+    "correct_answer": "Jerry (Tom ve Jerry)",
+    "incorrect_answers": ["Mickey Mouse", "Speedy Gonzales", "Bugs Bunny"]
+  },
+  {
+    "category": "Computers",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Bilgisayarda yazı yazmak için kullanılan ana donanım nedir?",
+    "correct_answer": "Klavye",
+    "incorrect_answers": ["Fare", "Ekran", "Yazıcı"]
+  },
+  {
+    "category": "Politics",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Bir ülkeyi yöneten en üst düzeydeki kişi genellikle hangi unvanı taşır?",
+    "correct_answer": "Devlet Başkanı / Cumhurbaşkanı",
+    "incorrect_answers": ["Milletvekili", "Bakan", "Belediye Başkanı"]
+  },
+  {
+    "category": "Celebrities",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Pop müziğin Kralı olarak bilinen ünlü şarkıcı kimdir?",
+    "correct_answer": "Michael Jackson",
+    "incorrect_answers": ["Elvis Presley", "Madonna", "Freddie Mercury"]
+  },
+  {
+    "category": "Comics",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Kripton gezegeninden gelen ve uçabilen süper kahraman kimdir?",
+    "correct_answer": "Superman",
+    "incorrect_answers": ["Batman", "Spiderman", "Ironman"]
+  },
+  {
+    "category": "Gadgets",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Cep telefonlarında fotoğraf çekmek için kullanılan bölüme ne ad verilir?",
+    "correct_answer": "Kamera",
+    "incorrect_answers": ["Mikrofon", "Hoparlör", "Ekran"]
+  },
+  {
+    "category": "AnimeAndManga",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Sarı saçları ve 'Dattebayo!' repliği ile tanınan ninja karakteri kimdir?",
+    "correct_answer": "Naruto Uzumaki",
+    "incorrect_answers": ["Son Goku", "Monkey D. Luffy", "Ichigo Kurosaki"]
+  },
+  {
+    "category": "CartoonAndAnimations",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "SüngerBob KarePantolon'un en iyi arkadaşı olan denizyıldızının adı nedir?",
+    "correct_answer": "Patrick",
+    "incorrect_answers": ["Squidward", "Sandy", "Bay Yengeç"]
+  },
+  {
+    "category": "BoardGames",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Taşları hareket ettirerek rakibin şahını mat etmeye çalışılan oyun hangisidir?",
+    "correct_answer": "Satranç",
+    "incorrect_answers": ["Dama", "Go", "Tavla"]
+  },
+  {
+    "category": "MusicalsAndTheatres",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Oyuncuların sahnede bir hikayeyi canlandırdığı sanata ne denir?",
+    "correct_answer": "Tiyatro",
+    "incorrect_answers": ["Sinema", "Opera", "Bale"]
+  },
+  {
+    "category": "Mythology",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Yunan mitolojisinde aşk tanrıçası kimdir?",
+    "correct_answer": "Afrodit",
+    "incorrect_answers": ["Athena", "Hera", "Artemis"]
+  },
+  {
+    "category": "GeneralKnowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Bir haftada kaç gün vardır?",
+    "correct_answer": "7",
+    "incorrect_answers": ["5", "10", "30"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Suda yaşayan ve solungaçlarıyla nefes alan hayvanlara genel olarak ne denir?",
+    "correct_answer": "Balık",
+    "incorrect_answers": ["Kurbağa", "Yılan", "Kuş"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Kuzey Kutbu'nda yaşayan büyük beyaz ayı türü hangisidir?",
+    "correct_answer": "Kutup ayısı",
+    "incorrect_answers": ["Boz ayı", "Panda", "Grizly ayısı"]
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Basketbolda topu potaya atarak sayı kazanmaya ne denir?",
+    "correct_answer": "Basket atmak",
+    "incorrect_answers": ["Pas vermek", "Top sürmek", "Ribaund almak"]
+  },
+  {
+    "category": "ScienceAndNature",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Bitkilerin yeşil rengini veren madde nedir?",
+    "correct_answer": "Klorofil",
+    "incorrect_answers": ["Karbondioksit", "Oksijen", "Su"]
+  },
+  {
+    "category": "Music",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Vurmalı çalgılardan hangisi genellikle iki tahta çubuğun birbirine vurulmasıyla çalınır?",
+    "correct_answer": "Kastanyet",
+    "incorrect_answers": ["Davul", "Zil", "Marakas"]
+  },
+  {
+    "category": "Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Harry Potter serisindeki ana karakterin adı nedir?",
+    "correct_answer": "Harry Potter",
+    "incorrect_answers": ["Ron Weasley", "Hermione Granger", "Draco Malfoy"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "İstanbul'un fethi hangi yıl gerçekleşmiştir?",
+    "correct_answer": "1453",
+    "incorrect_answers": ["1071", "1299", "1517"]
+  },
+  {
+    "category": "Mathematics",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "2 + 2 kaçtır?",
+    "correct_answer": "4",
+    "incorrect_answers": ["2", "3", "5"]
+  },
+  {
+    "category": "Vehicles",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Raylar üzerinde hareket eden ve çok sayıda yolcu taşıyabilen toplu taşıma aracı hangisidir?",
+    "correct_answer": "Tren",
+    "incorrect_answers": ["Otobüs", "Uçak", "Gemi"]
+  },
+  {
+    "category": "GeneralKnowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Dünyanın en uzun nehri hangisidir?",
+    "correct_answer": "Nil Nehri",
+    "incorrect_answers": ["Amazon Nehri", "Yangtze Nehri", "Mississippi Nehri"]
+  },
+  {
+    "category": "ScienceAndNature",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Fotosentez sırasında bitkiler hangi gazı atmosfere verirler?",
+    "correct_answer": "Oksijen",
+    "incorrect_answers": ["Karbondioksit", "Azot", "Hidrojen"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "İlk yazıyı kullanan uygarlık hangisidir?",
+    "correct_answer": "Sümerler",
+    "incorrect_answers": ["Mısırlılar", "Romalılar", "Yunanlılar"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Japonya'nın başkenti neresidir?",
+    "correct_answer": "Tokyo",
+    "incorrect_answers": ["Kyoto", "Osaka", "Pekin"]
+  },
+  {
+    "category": "Art",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "'Yıldızlı Gece' tablosu hangi ünlü ressama aittir?",
+    "correct_answer": "Vincent van Gogh",
+    "incorrect_answers": ["Claude Monet", "Pablo Picasso", "Leonardo da Vinci"]
+  },
+  {
+    "category": "Music",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Ludwig van Beethoven hangi duyu organını büyük ölçüde kaybetmiştir?",
+    "correct_answer": "İşitme",
+    "incorrect_answers": ["Görme", "Koklama", "Dokunma"]
+  },
+  {
+    "category": "Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Akademi Ödülleri (Oscar) hangi ülkede verilmektedir?",
+    "correct_answer": "Amerika Birleşik Devletleri",
+    "incorrect_answers": ["Fransa", "İngiltere", "İtalya"]
+  },
+  {
+    "category": "Books",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "'Don Kişot' adlı ünlü romanın yazarı kimdir?",
+    "correct_answer": "Miguel de Cervantes",
+    "incorrect_answers": ["William Shakespeare", "Victor Hugo", "Leo Tolstoy"]
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Olimpiyat Oyunları kaç yılda bir düzenlenir?",
+    "correct_answer": "4",
+    "incorrect_answers": ["2", "3", "5"]
+  },
+  {
+    "category": "Mathematics",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Pi (π) sayısının yaklaşık değeri nedir?",
+    "correct_answer": "3.14",
+    "incorrect_answers": ["2.71", "1.61", "4.00"]
+  },
+  {
+    "category": "Computers",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "İnternet üzerindeki bir web sitesinin adresine ne ad verilir?",
+    "correct_answer": "URL (Uniform Resource Locator)",
+    "incorrect_answers": ["IP Adresi", "Alan Adı Sistemi (DNS)", "Protokol"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Dünyanın en büyük memeli hayvanı hangisidir?",
+    "correct_answer": "Mavi Balina",
+    "incorrect_answers": ["Afrika Fili", "Zürafa", "Boz Ayı"]
+  },
+  {
+    "category": "Vehicles",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Sesten hızlı uçabilen ilk sivil yolcu uçağı hangisidir?",
+    "correct_answer": "Concorde",
+    "incorrect_answers": ["Boeing 747", "Airbus A380", "Tupolev Tu-144"]
+  },
+  {
+    "category": "Politics",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Birleşmiş Milletler'in (BM) merkezi hangi şehirdedir?",
+    "correct_answer": "New York",
+    "incorrect_answers": ["Cenevre", "Paris", "Londra"]
+  },
+  {
+    "category": "Celebrities",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Görelilik teorisi ile tanınan ünlü bilim insanı kimdir?",
+    "correct_answer": "Albert Einstein",
+    "incorrect_answers": ["Isaac Newton", "Galileo Galilei", "Marie Curie"]
+  },
+  {
+    "category": "Comics",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Örümcek tarafından ısırıldıktan sonra süper güçler kazanan karakter kimdir?",
+    "correct_answer": "Spider-Man (Örümcek Adam)",
+    "incorrect_answers": ["Batman", "Iron Man", "Captain America"]
+  },
+  {
+    "category": "Gadgets",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Apple şirketinin kurucularından biri olan ve iPhone'u tanıtan kişi kimdir?",
+    "correct_answer": "Steve Jobs",
+    "incorrect_answers": ["Bill Gates", "Mark Zuckerberg", "Jeff Bezos"]
+  },
+  {
+    "category": "AnimeAndManga",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "'Death Note' adlı animede, ismi deftere yazılan kişilerin ölmesini sağlayan deftere sahip olan ana karakter kimdir?",
+    "correct_answer": "Light Yagami",
+    "incorrect_answers": ["L Lawliet", "Ryuk", "Misa Amane"]
+  },
+  {
+    "category": "CartoonAndAnimations",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "'Oyuncak Hikayesi' (Toy Story) filmindeki kovboy karakterinin adı nedir?",
+    "correct_answer": "Woody",
+    "incorrect_answers": ["Buzz Lightyear", "Mr. Potato Head", "Slinky Dog"]
+  },
+  {
+    "category": "BoardGames",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Amaç, zarları atarak ve piyonları hareket ettirerek oyun tahtasında belirli mülkleri satın alıp kiralayarak en zengin oyuncu olmak olan oyun hangisidir?",
+    "correct_answer": "Monopoly",
+    "incorrect_answers": ["Scrabble", "Risk", "Cluedo"]
+  },
+  {
+    "category": "MusicalsAndTheatres",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "William Shakespeare'in ünlü trajedisi 'Hamlet' hangi ülkede geçmektedir?",
+    "correct_answer": "Danimarka",
+    "incorrect_answers": ["İngiltere", "İtalya", "İskoçya"]
+  },
+  {
+    "category": "Mythology",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Roma mitolojisinde savaş tanrısı kimdir?",
+    "correct_answer": "Mars",
+    "incorrect_answers": ["Jüpiter", "Neptün", "Plüton"]
+  },
+  {
+    "category": "Television",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "'Friends' adlı popüler sitcom dizisi hangi şehirde geçmektedir?",
+    "correct_answer": "New York",
+    "incorrect_answers": ["Los Angeles", "Chicago", "Seattle"]
+  },
+  {
+    "category": "GeneralKnowledge",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Hangi gezegen 'Kızıl Gezegen' olarak bilinir?",
+    "correct_answer": "Mars",
+    "incorrect_answers": ["Venüs", "Jüpiter", "Merkür"]
+  },
+  {
+    "category": "ScienceAndNature",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Periyodik tabloda 'H' sembolü ile gösterilen element hangisidir?",
+    "correct_answer": "Hidrojen",
+    "incorrect_answers": ["Helyum", "Oksijen", "Karbon"]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Mona Lisa tablosu hangi müzede sergilenmektedir?",
+    "correct_answer": "Louvre Müzesi",
+    "incorrect_answers": [
+      "British Museum",
+      "Prado Müzesi",
+      "Metropolitan Sanat Müzesi"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Avustralya kıtasının en bilinen yerli hayvanı hangisidir?",
+    "correct_answer": "Kanguru",
+    "incorrect_answers": ["Koala", "Emu", "Tazmanya Canavarı"]
+  },
+  {
+    "category": "Art",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Rönesans döneminin ünlü İtalyan heykeltıraş, ressam, mimar ve şairi kimdir? (Örn: Davut heykeli)",
+    "correct_answer": "Michelangelo",
+    "incorrect_answers": ["Leonardo da Vinci", "Raphael", "Donatello"]
+  },
+  {
+    "category": "Music",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Klasik müzikte 'Dört Mevsim' adlı keman konçertoları bestesiyle tanınan besteci kimdir?",
+    "correct_answer": "Antonio Vivaldi",
+    "incorrect_answers": [
+      "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart",
+      "Ludwig van Beethoven"
+    ]
+  },
+  {
+    "category": "Film",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "'Titanik' filminin yönetmeni kimdir?",
+    "correct_answer": "James Cameron",
+    "incorrect_answers": [
+      "Steven Spielberg",
+      "Christopher Nolan",
+      "Martin Scorsese"
+    ]
+  },
+  {
+    "category": "Books",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "J.K. Rowling tarafından yazılan fantastik roman serisi hangisidir?",
+    "correct_answer": "Harry Potter",
+    "incorrect_answers": [
+      "Yüzüklerin Efendisi",
+      "Narnia Günlükleri",
+      "Açlık Oyunları"
+    ]
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "NBA (National Basketball Association) hangi ülkenin profesyonel basketbol ligidir?",
+    "correct_answer": "Amerika Birleşik Devletleri",
+    "incorrect_answers": ["Kanada", "İspanya", "Çin"]
+  },
+  {
+    "category": "Mathematics",
+    "type": "multiple",
+    "difficulty": "medium",
+    "question": "Bir üçgenin iç açılarının toplamı kaç derecedir?",
+    "correct_answer": "180",
+    "incorrect_answers": ["90", "270", "360"]
+  },
+  {
+    "category": "ScienceAndNature",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Evrenin oluşumunu açıklayan en yaygın kabul gören teori nedir?",
+    "correct_answer": "Büyük Patlama (Big Bang) Teorisi",
+    "incorrect_answers": [
+      "Sicim Teorisi",
+      "Kararlı Durum Teorisi",
+      "Enflasyon Teorisi"
+    ]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Antik Mısır'da yazı yazmak için kullanılan kağıt benzeri materyalin adı nedir?",
+    "correct_answer": "Papirüs",
+    "incorrect_answers": ["Parşömen", "Kil tablet", "Bambu şeritleri"]
+  },
+  {
+    "category": "Literature (Books)",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "James Joyce'un bilinç akışı tekniğiyle yazdığı ve bir günü anlatan ünlü romanı hangisidir?",
+    "correct_answer": "Ulysses",
+    "incorrect_answers": [
+      "Dublinliler",
+      "Sanatçının Bir Genç Adam Olarak Portresi",
+      "Finnegan Uyanması"
+    ]
+  },
+  {
+    "category": "Art",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Sürrealizm akımının en önemli temsilcilerinden biri olan ve 'Belleğin Azmi' (Eriyen Saatler) tablosuyla tanınan İspanyol ressam kimdir?",
+    "correct_answer": "Salvador Dalí",
+    "incorrect_answers": ["Pablo Picasso", "René Magritte", "Max Ernst"]
+  },
+  {
+    "category": "Music",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Rock grubu Queen'in efsanevi solisti kimdir?",
+    "correct_answer": "Freddie Mercury",
+    "incorrect_answers": ["Robert Plant", "Mick Jagger", "Axl Rose"]
+  },
+  {
+    "category": "Film",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "1994 yapımı 'Ucuz Roman' (Pulp Fiction) filminin kült yönetmeni kimdir?",
+    "correct_answer": "Quentin Tarantino",
+    "incorrect_answers": [
+      "Martin Scorsese",
+      "Francis Ford Coppola",
+      "Steven Spielberg"
+    ]
+  },
+  {
+    "category": "Philosophy (GeneralKnowledge tag as placeholder)",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "'Düşünüyorum, öyleyse varım' (Cogito, ergo sum) sözüyle tanınan ünlü filozof kimdir?",
+    "correct_answer": "René Descartes",
+    "incorrect_answers": ["Platon", "Aristoteles", "Immanuel Kant"]
+  },
+  {
+    "category": "Computers",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Linux işletim sisteminin çekirdeğini (kernel) ilk geliştiren kişi kimdir?",
+    "correct_answer": "Linus Torvalds",
+    "incorrect_answers": ["Richard Stallman", "Bill Gates", "Steve Wozniak"]
+  },
+  {
+    "category": "Mathematics",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Fermat'nın Son Teoremi'ni 1994 yılında kanıtlayan matematikçi kimdir?",
+    "correct_answer": "Andrew Wiles",
+    "incorrect_answers": [
+      "Carl Friedrich Gauss",
+      "Leonhard Euler",
+      "Pierre de Fermat"
+    ]
+  },
+  {
+    "category": "Mythology",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "İskandinav mitolojisinde tanrıların kralı ve Asgard'ın hükümdarı kimdir?",
+    "correct_answer": "Odin",
+    "incorrect_answers": ["Thor", "Loki", "Frey"]
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Bir maraton koşusunun standart mesafesi yaklaşık olarak kaç kilometredir?",
+    "correct_answer": "42.195 kilometre",
+    "incorrect_answers": ["21.0975 kilometre", "50 kilometre", "30 kilometre"]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Dünyanın en derin noktası olarak bilinen Mariana Çukuru hangi okyanusta yer almaktadır?",
+    "correct_answer": "Pasifik Okyanusu",
+    "incorrect_answers": [
+      "Atlantik Okyanusu",
+      "Hint Okyanusu",
+      "Arktik Okyanusu"
+    ]
+  },
+  {
+    "category": "Politics",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Soğuk Savaş dönemi hangi iki süper güç arasında yaşanmıştır?",
+    "correct_answer": "ABD ve Sovyetler Birliği",
+    "incorrect_answers": [
+      "ABD ve Çin",
+      "İngiltere ve Fransa",
+      "Almanya ve Japonya"
+    ]
+  },
+  {
+    "category": "Celebrities",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Fizikte Nobel Ödülü'nü iki kez kazanan tek kadın bilim insanı kimdir?",
+    "correct_answer": "Marie Curie",
+    "incorrect_answers": ["Rosalind Franklin", "Lise Meitner", "Ada Lovelace"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Doğada kamuflaj ustası olarak bilinen ve renk değiştirebilen sürüngen hangisidir?",
+    "correct_answer": "Bukalemun",
+    "incorrect_answers": ["Kertenkele", "Yılan", "Timsah"]
+  },
+  {
+    "category": "Vehicles",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Apollo 11 göreviyle Ay'a ilk ayak basan astronot kimdir?",
+    "correct_answer": "Neil Armstrong",
+    "incorrect_answers": ["Buzz Aldrin", "Michael Collins", "Yuri Gagarin"]
+  },
+  {
+    "category": "Comics",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Watchmen adlı çizgi romanda, yüzünde sürekli değişen mürekkep lekeleri olan karakterin adı nedir?",
+    "correct_answer": "Rorschach",
+    "incorrect_answers": ["Dr. Manhattan", "Ozymandias", "The Comedian"]
+  },
+  {
+    "category": "Gadgets",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Dünyanın ilk kişisel bilgisayarlarından biri olarak kabul edilen ve 1977'de piyasaya sürülen Apple bilgisayarının modeli nedir?",
+    "correct_answer": "Apple II",
+    "incorrect_answers": ["Macintosh", "Apple I", "Lisa"]
+  },
+  {
+    "category": "AnimeAndManga",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Studio Ghibli'nin kurucularından olan ve 'Ruhların Kaçışı', 'Komşum Totoro' gibi filmleriyle tanınan efsanevi yönetmen kimdir?",
+    "correct_answer": "Hayao Miyazaki",
+    "incorrect_answers": ["Isao Takahata", "Makoto Shinkai", "Mamoru Oshii"]
+  },
+  {
+    "category": "CartoonAndAnimations",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Pixar Animasyon Stüdyoları'nın ilk uzun metrajlı animasyon filmi hangisidir?",
+    "correct_answer": "Oyuncak Hikayesi (Toy Story)",
+    "incorrect_answers": [
+      "Bir Böceğin Yaşamı (A Bug's Life)",
+      "Sevimli Canavarlar (Monsters, Inc.)",
+      "Kayıp Balık Nemo (Finding Nemo)"
+    ]
+  },
+  {
+    "category": "BoardGames",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Oyuncuların harflerle dolu karoları kullanarak bir tahta üzerinde kelimeler oluşturduğu klasik kelime oyunu hangisidir?",
+    "correct_answer": "Scrabble",
+    "incorrect_answers": ["Boggle", "Tabu", "Trivial Pursuit"]
+  },
+  {
+    "category": "MusicalsAndTheatres",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Andrew Lloyd Webber tarafından bestelenen ve Paris Operası'nda geçen ünlü müzikal hangisidir?",
+    "correct_answer": "Operadaki Hayalet (The Phantom of the Opera)",
+    "incorrect_answers": ["Kediler (Cats)", "Evita", "Jesus Christ Superstar"]
+  },
+  {
+    "category": "GeneralKnowledge",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Schrödinger'in kedisi deneyi hangi fizik dalıyla ilgilidir?",
+    "correct_answer": "Kuantum Mekaniği",
+    "incorrect_answers": ["Klasik Mekanik", "Termodinamik", "Görelilik Teorisi"]
+  },
+  {
+    "category": "ScienceAndNature",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "DNA'nın çift sarmal yapısını keşfeden bilim insanları kimlerdir? (İki ana isim)",
+    "correct_answer": "James Watson ve Francis Crick",
+    "incorrect_answers": [
+      "Rosalind Franklin ve Maurice Wilkins",
+      "Linus Pauling ve Robert Corey",
+      "Gregor Mendel ve Charles Darwin"
+    ]
+  },
+  {
+    "category": "History",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Orta Çağ Avrupa'sında 'Kara Veba' olarak bilinen büyük salgına neden olan bakteri hangisidir?",
+    "correct_answer": "Yersinia pestis",
+    "incorrect_answers": [
+      "Bacillus anthracis",
+      "Vibrio cholerae",
+      "Mycobacterium tuberculosis"
+    ]
+  },
+  {
+    "category": "Geography",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Dünyanın en büyük çölü hangisidir? (Sıcak ve soğuk çöller dahil edildiğinde)",
+    "correct_answer": "Antarktika Çölü",
+    "incorrect_answers": ["Sahra Çölü", "Gobi Çölü", "Arktik Çölü"]
+  },
+  {
+    "category": "Art",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "İzlenimcilik (Empresyonizm) akımının öncülerinden sayılan ve 'İzlenim, Gündoğumu' adlı tablosu akıma adını veren Fransız ressam kimdir?",
+    "correct_answer": "Claude Monet",
+    "incorrect_answers": [
+      "Edgar Degas",
+      "Pierre-Auguste Renoir",
+      "Camille Pissarro"
+    ]
+  },
+  {
+    "category": "Books",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Gabriel Garcia Marquez'in büyülü gerçekçilik akımının başyapıtlarından sayılan ve Buendia ailesinin yüz yıllık hikayesini anlatan romanı hangisidir?",
+    "correct_answer": "Yüzyıllık Yalnızlık",
+    "incorrect_answers": [
+      "Kolera Günlerinde Aşk",
+      "Kırmızı Pazartesi",
+      "Başkan Babamızın Sonbaharı"
+    ]
+  },
+  {
+    "category": "Computers",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Kuantum bilgisayarlarında bilgi birimi olarak kullanılan temel yapıya ne ad verilir?",
+    "correct_answer": "Kübit (Qubit)",
+    "incorrect_answers": ["Bit", "Transistör", "Foton"]
+  },
+  {
+    "category": "Mythology",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Mısır mitolojisinde yeraltı dünyasının ve ölülerin tanrısı kimdir?",
+    "correct_answer": "Osiris",
+    "incorrect_answers": ["Ra", "Anubis", "Horus"]
+  },
+  {
+    "category": "Sports",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Beş farklı disiplini (yüzme, atıcılık, eskrim, binicilik ve koşu) içeren modern olimpik spor dalı hangisidir?",
+    "correct_answer": "Modern Pentatlon",
+    "incorrect_answers": ["Triatlon", "Dekatlon", "Heptatlon"]
+  },
+  {
+    "category": "Mathematics",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Matematikte, çözümü olmayan veya kanıtlanamayan problemlerden biri olan ve Hilbert'in 23 probleminden sekizincisi olarak bilinen hipotez hangisidir?",
+    "correct_answer": "Riemann Hipotezi",
+    "incorrect_answers": [
+      "Goldbach Sanısı",
+      "Poincaré Sanısı",
+      "Navier-Stokes Denklemleri"
+    ]
+  },
+  {
+    "category": "Politics",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Uluslararası Ceza Mahkemesi'nin (UCM) daimi merkezi hangi şehirdedir?",
+    "correct_answer": "Lahey",
+    "incorrect_answers": ["Brüksel", "Strazburg", "New York"]
+  },
+  {
+    "category": "Animals",
+    "type": "multiple",
+    "difficulty": "hard",
+    "question": "Yalnızca Madagaskar adasında yaşayan ve uzun, çizgili bir kuyruğa sahip olan primat türü hangisidir?",
+    "correct_answer": "Halka kuyruklu lemur",
+    "incorrect_answers": ["Aye-aye", "Sifaka", "Indri"]
+  }
+]

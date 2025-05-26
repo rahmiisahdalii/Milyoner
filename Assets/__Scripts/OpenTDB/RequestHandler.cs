@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using UnityEngine;
@@ -10,19 +11,24 @@ namespace OpenTDB
     {
         public static bool EnableDebug = false;
 
-        public static Task<List<Question>> GetQuestions()
+public static Task<List<Question>> GetQuestions(QuestionRequest request)
 {
     try
     {
         TextAsset jsonFile = Resources.Load<TextAsset>("questions");
-
         if (jsonFile != null)
         {
             if (EnableDebug)
                 Debug.Log("Local JSON file loaded successfully.");
-
+            
             List<Question> questions = JsonConvert.DeserializeObject<List<Question>>(jsonFile.text);
-            return Task.FromResult(questions);
+
+            // Zorluk seviyesine göre filtreleme
+            var filteredQuestions = questions
+                .Where(q => q.difficulty == request.difficulty)
+                .ToList();
+
+            return Task.FromResult(filteredQuestions);
         }
         else
         {
@@ -36,6 +42,7 @@ namespace OpenTDB
         return Task.FromException<List<Question>>(ex);
     }
 }
+
 
     }
 }

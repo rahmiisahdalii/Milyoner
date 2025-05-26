@@ -160,7 +160,7 @@ public class GameController : MonoBehaviour
 
     try
     {
-        List<Question> res = await RequestHandler.GetQuestions();
+        List<Question> res = await RequestHandler.GetQuestions(request);
 
         if (res == null || res.Count == 0)
         {
