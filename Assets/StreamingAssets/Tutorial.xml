@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Eğitim ekranını gösterme gramer dosyası -->
+<grammar xml:lang="tr" root="egitimGoster" tag-format="semantics/1.0" version="1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <!-- Kök kural -->
+  <rule id="egitimGoster" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#goster" />
+        <tag>out = rules.goster;</tag>
+      </item>
+      <item>
+        <ruleref uri="#gizle" />
+        <tag>out = rules.gizle;</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- Eğitimi göster -->
+  <rule id="goster">
+    <example>ne diyebilirim</example>
+    <example>eğitimi göster</example>
+    
+    <one-of>
+      <item>ne diyebilirim</item>
+      <item>ne söylemeliyim</item>
+      <item>ne söylüyorum</item>
+      
+      <item>
+        <ruleref uri="Ortak.xml#gosterKomutlari" />
+        <ruleref uri="#egitimAdi" />
+      </item>
+    </one-of>
+    <tag>out.egitim = "egitim-goster";</tag>
+  </rule>
+
+  <!-- Eğitimi gizle -->
+  <rule id="gizle">
+    <example>eğitimi gizle</example>
+    
+    <ruleref uri="Ortak.xml#gizleKomutlari" />
+    <ruleref uri="#egitimAdi" />
+    <tag>out.egitim = "egitim-gizle";</tag>
+  </rule>
+
+  <rule id="egitimAdi">
+    <item repeat="0-1">bu</item>
+    <one-of>
+      <item>eğitim</item>
+      <item>yardım</item>
+    </one-of>
+  </rule>
+</grammar>

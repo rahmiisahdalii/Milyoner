@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Birden fazla gramer dosyasında paylaşılan genel kurallar -->
+<grammar xml:lang="tr" tag-format="semantics/1.0" version="1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="showCommands" scope="public">
+    <one-of>
+      <item>göster</item>
+      <item>görüntüle</item>
+      <item>aç</item>
+      <item>git</item>
+    </one-of>
+  </rule>
+
+  <rule id="hideCommands" scope="public">
+    <one-of>
+      <item>gizle</item>
+      <item>kapat</item>
+      <item>kapat</item> <!-- 'dismiss' ve 'close' için aynı çeviri kullanılabilir -->
+    </one-of>
+  </rule>
+
+  <rule id="confirmationCommands" scope="public">
+    <one-of>
+      <item>onayla</item>
+      <item>evet</item>
+      <item>eminim</item>
+    </one-of>
+  </rule>
+
+  <rule id="cancellationCommands" scope="public">
+    <one-of>
+      <item>iptal et</item>
+      <item>hayır</item>
+      <item>geri git</item>
+    </one-of>
+  </rule>
+</grammar>

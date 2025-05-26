@@ -1,0 +1,830 @@
+[
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "İnsan vücudunda kaç böbrek vardır?",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "3", "4"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Mustafa Kemal Atatürk hangi yıl doğmuştur?",
+    "correct_answer": "1881",
+    "incorrect_answers": ["1879", "1883", "1890"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Dünya'nın uydusunun adı nedir?",
+    "correct_answer": "Ay",
+    "incorrect_answers": ["Güneş", "Mars", "Venüs"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Avustralya’nın başkenti neresidir?",
+    "correct_answer": "Canberra",
+    "incorrect_answers": ["Sidney", "Melbourne", "Perth"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "En ünlü oyun yazarı kimdir?",
+    "correct_answer": "William Shakespeare",
+    "incorrect_answers": ["Charles Dickens", "George Orwell", "J.K. Rowling"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "İlk modern Olimpiyat Oyunları hangi yılda düzenlenmiştir?",
+    "correct_answer": "1896",
+    "incorrect_answers": ["1900", "1880", "1912"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Mustafa Kemal Atatürk hangi yıl doğmuştur?",
+    "correct_answer": "1881",
+    "incorrect_answers": ["1879", "1883", "1890"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Dünya'nın uydusunun adı nedir?",
+    "correct_answer": "Ay",
+    "incorrect_answers": ["Güneş", "Mars", "Venüs"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Avustralya’nın başkenti neresidir?",
+    "correct_answer": "Canberra",
+    "incorrect_answers": ["Sidney", "Melbourne", "Perth"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Beethoven hangi alanda tanınır?",
+    "correct_answer": "Müzik",
+    "incorrect_answers": ["Resim", "Heykel", "Edebiyat"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Eyfel Kulesi hangi şehirde yer alır?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["Londra", "Berlin", "Roma"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Fatih Sultan Mehmet İstanbul’u hangi yılda fethetti?",
+    "correct_answer": "1453",
+    "incorrect_answers": ["1402", "1481", "1431"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Dünya'nın uydusunun adı nedir?",
+    "correct_answer": "Ay",
+    "incorrect_answers": ["Güneş", "Mars", "Venüs"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Nil Nehri hangi kıtadadır?",
+    "correct_answer": "Afrika",
+    "incorrect_answers": ["Asya", "Avrupa", "Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Yıldızlı Gece tablosunun sahibi kimdir?",
+    "correct_answer": "Vincent van Gogh",
+    "incorrect_answers": ["Claude Monet", "Edvard Munch", "Paul Cézanne"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Eyfel Kulesi hangi şehirde yer alır?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["Londra", "Berlin", "Roma"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Fatih Sultan Mehmet İstanbul’u hangi yılda fethetti?",
+    "correct_answer": "1453",
+    "incorrect_answers": ["1402", "1481", "1431"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Suyun kimyasal formülü nedir?",
+    "correct_answer": "H2O",
+    "incorrect_answers": ["CO2", "O2", "NaCl"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Türkiye’nin başkenti neresidir?",
+    "correct_answer": "Ankara",
+    "incorrect_answers": ["İstanbul", "İzmir", "Bursa"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Vincent van Gogh hangi ülkelidir?",
+    "correct_answer": "Hollandalı",
+    "incorrect_answers": ["Fransız", "İtalyan", "İspanyol"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Eyfel Kulesi hangi şehirde yer alır?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["Londra", "Berlin", "Roma"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Fransız İhtilali hangi yıl gerçekleşti?",
+    "correct_answer": "1789",
+    "incorrect_answers": ["1776", "1804", "1799"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Dünya'nın uydusunun adı nedir?",
+    "correct_answer": "Ay",
+    "incorrect_answers": ["Güneş", "Mars", "Venüs"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Nil Nehri hangi kıtadadır?",
+    "correct_answer": "Afrika",
+    "incorrect_answers": ["Asya", "Avrupa", "Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Mona Lisa tablosunu kim yapmıştır?",
+    "correct_answer": "Leonardo da Vinci",
+    "incorrect_answers": ["Pablo Picasso", "Michelangelo", "Van Gogh"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "İnsan vücudunda kaç böbrek vardır?",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "3", "4"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Mustafa Kemal Atatürk hangi yıl doğmuştur?",
+    "correct_answer": "1881",
+    "incorrect_answers": ["1879", "1883", "1890"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Suyun kimyasal formülü nedir?",
+    "correct_answer": "H2O",
+    "incorrect_answers": ["CO2", "O2", "NaCl"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Amazon Nehri hangi kıtadadır?",
+    "correct_answer": "Güney Amerika",
+    "incorrect_answers": ["Afrika", "Asya", "Kuzey Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Beethoven hangi alanda tanınır?",
+    "correct_answer": "Müzik",
+    "incorrect_answers": ["Resim", "Heykel", "Edebiyat"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Dünya üzerindeki en büyük okyanus hangisidir?",
+    "correct_answer": "Pasifik Okyanusu",
+    "incorrect_answers": [
+      "Atlantik Okyanusu",
+      "Hint Okyanusu",
+      "Arktik Okyanusu"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Fransız İhtilali hangi yıl gerçekleşti?",
+    "correct_answer": "1789",
+    "incorrect_answers": ["1776", "1804", "1799"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "İnsan vücudunda en büyük organ hangisidir?",
+    "correct_answer": "Deri",
+    "incorrect_answers": ["Karaciğer", "Akciğer", "Kalp"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Türkiye’nin başkenti neresidir?",
+    "correct_answer": "Ankara",
+    "incorrect_answers": ["İstanbul", "İzmir", "Bursa"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Beethoven hangi alanda tanınır?",
+    "correct_answer": "Müzik",
+    "incorrect_answers": ["Resim", "Heykel", "Edebiyat"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Eyfel Kulesi hangi şehirde yer alır?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["Londra", "Berlin", "Roma"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Mustafa Kemal Atatürk hangi yıl doğmuştur?",
+    "correct_answer": "1881",
+    "incorrect_answers": ["1879", "1883", "1890"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Dünya'nın uydusunun adı nedir?",
+    "correct_answer": "Ay",
+    "incorrect_answers": ["Güneş", "Mars", "Venüs"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Everest Dağı hangi dağ silsilesindedir?",
+    "correct_answer": "Himalayalar",
+    "incorrect_answers": ["Alpler", "Kayalıklar", "Andlar"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Beethoven hangi alanda tanınır?",
+    "correct_answer": "Müzik",
+    "incorrect_answers": ["Resim", "Heykel", "Edebiyat"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Eyfel Kulesi hangi şehirde yer alır?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["Londra", "Berlin", "Roma"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "İkinci Dünya Savaşı hangi yıl sona erdi?",
+    "correct_answer": "1945",
+    "incorrect_answers": ["1944", "1939", "1950"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "İnsan vücudunda en büyük organ hangisidir?",
+    "correct_answer": "Deri",
+    "incorrect_answers": ["Karaciğer", "Akciğer", "Kalp"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Nil Nehri hangi kıtadadır?",
+    "correct_answer": "Afrika",
+    "incorrect_answers": ["Asya", "Avrupa", "Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Yıldızlı Gece tablosunun sahibi kimdir?",
+    "correct_answer": "Vincent van Gogh",
+    "incorrect_answers": ["Claude Monet", "Edvard Munch", "Paul Cézanne"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Eyfel Kulesi hangi şehirde yer alır?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["Londra", "Berlin", "Roma"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Birinci Dünya Savaşı kaç yılında başladı?",
+    "correct_answer": "1914",
+    "incorrect_answers": ["1918", "1923", "1905"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "DNA neyin kısaltmasıdır?",
+    "correct_answer": "Deoksiribonükleik Asit",
+    "incorrect_answers": [
+      "Ribonükleik Asit",
+      "Dizilimli Nükleik Asit",
+      "Dekompoze Nükleik Asit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Amazon Nehri hangi kıtadadır?",
+    "correct_answer": "Güney Amerika",
+    "incorrect_answers": ["Afrika", "Asya", "Kuzey Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Vincent van Gogh hangi ülkelidir?",
+    "correct_answer": "Hollandalı",
+    "incorrect_answers": ["Fransız", "İtalyan", "İspanyol"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "İnsan vücudunda kaç böbrek vardır?",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "3", "4"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Fransız İhtilali hangi yıl gerçekleşti?",
+    "correct_answer": "1789",
+    "incorrect_answers": ["1776", "1804", "1799"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Güneş sisteminde kaç gezegen vardır?",
+    "correct_answer": "8",
+    "incorrect_answers": ["9", "7", "10"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Amazon Nehri hangi kıtadadır?",
+    "correct_answer": "Güney Amerika",
+    "incorrect_answers": ["Afrika", "Asya", "Kuzey Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Mona Lisa tablosunu kim yapmıştır?",
+    "correct_answer": "Leonardo da Vinci",
+    "incorrect_answers": ["Pablo Picasso", "Michelangelo", "Van Gogh"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Eyfel Kulesi hangi şehirde yer alır?",
+    "correct_answer": "Paris",
+    "incorrect_answers": ["Londra", "Berlin", "Roma"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Mustafa Kemal Atatürk hangi yıl doğmuştur?",
+    "correct_answer": "1881",
+    "incorrect_answers": ["1879", "1883", "1890"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "İnsan vücudunda en büyük organ hangisidir?",
+    "correct_answer": "Deri",
+    "incorrect_answers": ["Karaciğer", "Akciğer", "Kalp"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Amazon Nehri hangi kıtadadır?",
+    "correct_answer": "Güney Amerika",
+    "incorrect_answers": ["Afrika", "Asya", "Kuzey Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Beethoven hangi alanda tanınır?",
+    "correct_answer": "Müzik",
+    "incorrect_answers": ["Resim", "Heykel", "Edebiyat"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Bir yıl kaç gündür?",
+    "correct_answer": "365",
+    "incorrect_answers": ["360", "366", "364"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Mustafa Kemal Atatürk hangi yıl doğmuştur?",
+    "correct_answer": "1881",
+    "incorrect_answers": ["1879", "1883", "1890"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Suyun kimyasal formülü nedir?",
+    "correct_answer": "H2O",
+    "incorrect_answers": ["CO2", "O2", "NaCl"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Türkiye’nin başkenti neresidir?",
+    "correct_answer": "Ankara",
+    "incorrect_answers": ["İstanbul", "İzmir", "Bursa"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Vincent van Gogh hangi ülkelidir?",
+    "correct_answer": "Hollandalı",
+    "incorrect_answers": ["Fransız", "İtalyan", "İspanyol"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "İlk modern Olimpiyat Oyunları hangi yılda düzenlenmiştir?",
+    "correct_answer": "1896",
+    "incorrect_answers": ["1900", "1880", "1912"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "İkinci Dünya Savaşı hangi yıl sona erdi?",
+    "correct_answer": "1945",
+    "incorrect_answers": ["1944", "1939", "1950"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "DNA neyin kısaltmasıdır?",
+    "correct_answer": "Deoksiribonükleik Asit",
+    "incorrect_answers": [
+      "Ribonükleik Asit",
+      "Dizilimli Nükleik Asit",
+      "Dekompoze Nükleik Asit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Nil Nehri hangi kıtadadır?",
+    "correct_answer": "Afrika",
+    "incorrect_answers": ["Asya", "Avrupa", "Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Beethoven hangi alanda tanınır?",
+    "correct_answer": "Müzik",
+    "incorrect_answers": ["Resim", "Heykel", "Edebiyat"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Dünya üzerindeki en büyük okyanus hangisidir?",
+    "correct_answer": "Pasifik Okyanusu",
+    "incorrect_answers": [
+      "Atlantik Okyanusu",
+      "Hint Okyanusu",
+      "Arktik Okyanusu"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Fransız İhtilali hangi yıl gerçekleşti?",
+    "correct_answer": "1789",
+    "incorrect_answers": ["1776", "1804", "1799"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "DNA neyin kısaltmasıdır?",
+    "correct_answer": "Deoksiribonükleik Asit",
+    "incorrect_answers": [
+      "Ribonükleik Asit",
+      "Dizilimli Nükleik Asit",
+      "Dekompoze Nükleik Asit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Nil Nehri hangi kıtadadır?",
+    "correct_answer": "Afrika",
+    "incorrect_answers": ["Asya", "Avrupa", "Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Vincent van Gogh hangi ülkelidir?",
+    "correct_answer": "Hollandalı",
+    "incorrect_answers": ["Fransız", "İtalyan", "İspanyol"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Bir yıl kaç gündür?",
+    "correct_answer": "365",
+    "incorrect_answers": ["360", "366", "364"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "İkinci Dünya Savaşı hangi yıl sona erdi?",
+    "correct_answer": "1945",
+    "incorrect_answers": ["1944", "1939", "1950"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Dünya'nın uydusunun adı nedir?",
+    "correct_answer": "Ay",
+    "incorrect_answers": ["Güneş", "Mars", "Venüs"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Avustralya’nın başkenti neresidir?",
+    "correct_answer": "Canberra",
+    "incorrect_answers": ["Sidney", "Melbourne", "Perth"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Vincent van Gogh hangi ülkelidir?",
+    "correct_answer": "Hollandalı",
+    "incorrect_answers": ["Fransız", "İtalyan", "İspanyol"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Dünya üzerindeki en büyük okyanus hangisidir?",
+    "correct_answer": "Pasifik Okyanusu",
+    "incorrect_answers": [
+      "Atlantik Okyanusu",
+      "Hint Okyanusu",
+      "Arktik Okyanusu"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Mustafa Kemal Atatürk hangi yıl doğmuştur?",
+    "correct_answer": "1881",
+    "incorrect_answers": ["1879", "1883", "1890"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "Dünya'nın uydusunun adı nedir?",
+    "correct_answer": "Ay",
+    "incorrect_answers": ["Güneş", "Mars", "Venüs"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Avustralya’nın başkenti neresidir?",
+    "correct_answer": "Canberra",
+    "incorrect_answers": ["Sidney", "Melbourne", "Perth"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Vincent van Gogh hangi ülkelidir?",
+    "correct_answer": "Hollandalı",
+    "incorrect_answers": ["Fransız", "İtalyan", "İspanyol"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "İlk modern Olimpiyat Oyunları hangi yılda düzenlenmiştir?",
+    "correct_answer": "1896",
+    "incorrect_answers": ["1900", "1880", "1912"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Mustafa Kemal Atatürk hangi yıl doğmuştur?",
+    "correct_answer": "1881",
+    "incorrect_answers": ["1879", "1883", "1890"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "İnsan vücudunda en büyük organ hangisidir?",
+    "correct_answer": "Deri",
+    "incorrect_answers": ["Karaciğer", "Akciğer", "Kalp"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Nil Nehri hangi kıtadadır?",
+    "correct_answer": "Afrika",
+    "incorrect_answers": ["Asya", "Avrupa", "Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Beethoven hangi alanda tanınır?",
+    "correct_answer": "Müzik",
+    "incorrect_answers": ["Resim", "Heykel", "Edebiyat"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "İnsan vücudunda kaç böbrek vardır?",
+    "correct_answer": "2",
+    "incorrect_answers": ["1", "3", "4"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "İkinci Dünya Savaşı hangi yıl sona erdi?",
+    "correct_answer": "1945",
+    "incorrect_answers": ["1944", "1939", "1950"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "DNA neyin kısaltmasıdır?",
+    "correct_answer": "Deoksiribonükleik Asit",
+    "incorrect_answers": [
+      "Ribonükleik Asit",
+      "Dizilimli Nükleik Asit",
+      "Dekompoze Nükleik Asit"
+    ]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Amazon Nehri hangi kıtadadır?",
+    "correct_answer": "Güney Amerika",
+    "incorrect_answers": ["Afrika", "Asya", "Kuzey Amerika"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "En ünlü oyun yazarı kimdir?",
+    "correct_answer": "William Shakespeare",
+    "incorrect_answers": ["Charles Dickens", "George Orwell", "J.K. Rowling"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Genel Kültür",
+    "question": "Bir yıl kaç gündür?",
+    "correct_answer": "365",
+    "incorrect_answers": ["360", "366", "364"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Tarih",
+    "question": "Birinci Dünya Savaşı kaç yılında başladı?",
+    "correct_answer": "1914",
+    "incorrect_answers": ["1918", "1923", "1905"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Bilim",
+    "question": "İnsan vücudunda en büyük organ hangisidir?",
+    "correct_answer": "Deri",
+    "incorrect_answers": ["Karaciğer", "Akciğer", "Kalp"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Coğrafya",
+    "question": "Türkiye’nin başkenti neresidir?",
+    "correct_answer": "Ankara",
+    "incorrect_answers": ["İstanbul", "İzmir", "Bursa"]
+  },
+  {
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Sanat",
+    "question": "Mona Lisa tablosunu kim yapmıştır?",
+    "correct_answer": "Leonardo da Vinci",
+    "incorrect_answers": ["Pablo Picasso", "Michelangelo", "Van Gogh"]
+  }
+]

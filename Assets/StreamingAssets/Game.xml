@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar xml:lang="tr" root="playAction" tag-format="semantics/1.0" version="1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  
+  <!-- Ana Kural -->
+  <rule id="playAction">
+    <one-of>
+      <item>
+        <ruleref uri="#lifeline" />
+        <tag>out = rules.lifeline;</tag>
+      </item>
+      <item>
+        <ruleref uri="#selectAnswer" />
+        <tag>out = rules.selectAnswer;</tag>
+      </item>
+      <item>
+        <ruleref uri="#confirmAnswer" />
+        <tag>out = rules.confirmAnswer;</tag>
+      </item>
+      <item>
+        <ruleref uri="#quit" />
+        <tag>out = rules.quit;</tag>
+      </item>
+      <item>
+        <ruleref uri="#confirmQuit" />
+        <tag>out = rules.confirmQuit;</tag>
+      </item>
+
+      <!-- Eğitim Bölümü -->
+      <item>
+        <ruleref uri="Tutorial.xml#showTutorial" />
+        <tag>out = rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- Joker Hakkı Kullanımı -->
+  <rule id="lifeline">
+    <example>seyirci jokerini kullan</example>
+    <example>yarı yarıya jokerini kullan</example>
+
+    <item>jokeri</item>
+    <item repeat="0-1">kullan</item>
+    <one-of>
+      <item>
+        <ruleref uri="#askAudience" />
+        <tag>out = rules.askAudience;</tag>
+      </item>
+      <item>
+        <ruleref uri="#fiftyFifty" />
+        <tag>out = rules.fiftyFifty;</tag>
+      </item>
+      <item>
+        <ruleref uri="#phoneFriend" />
+        <tag>out = rules.phoneFriend;</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="askAudience">
+    <item>seyirciye sor</item>
+    <tag>out.lifeline = "ask-audience";</tag>
+  </rule>
+
+  <rule id="fiftyFifty">
+    <item>yarı yarıya</item>
+    <tag>out.lifeline = "fifty-fifty";</tag>
+  </rule>
+
+  <rule id="phoneFriend">
+    <item>telefonla ara</item>
+    <tag>out.lifeline = "phone-friend";</tag>
+  </rule>
+
+  <!-- Cevap Seçimi -->
+  <rule id="selectAnswer">
+    <example>B seç</example>
+    <example>cevap C</example>
+
+    <one-of>
+      <item>cevap</item>
+      <item>seç</item>
+    </one-of>
+    <one-of>
+      <item>
+        <item>A</item>
+        <tag>out.selected = "A";</tag>
+      </item>
+      <item>
+        <item>B</item>
+        <tag>out.selected = "B";</tag>
+      </item>
+      <item>
+        <item>C</item>
+        <tag>out.selected = "C";</tag>
+      </item>
+      <item>
+        <item>D</item>
+        <tag>out.selected = "D";</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- Cevabı Onaylama -->
+  <rule id="confirmAnswer">
+    <item>son kararım</item>
+    <tag>out.finalAnswer = true;</tag>
+  </rule>
+
+  <!-- Oyundan Çekilme -->
+  <rule id="quit">
+    <one-of>
+      <item>çekilmek istiyorum</item>
+      <item>parayı al</item>
+      <item>yarışmadan ayrıl</item>
+    </one-of>
+    <tag>out.takeMoney = true;</tag>
+  </rule>
+
+  <!-- Çekilmeyi Onaylama -->
+  <rule id="confirmQuit">
+    <one-of>
+      <item>
+        <ruleref uri="Common.xml#confirmationCommands" />
+        <tag>out.quitConfirmation = true;</tag>
+      </item>
+      <item>
+        <ruleref uri="Common.xml#cancellationCommands" />
+        <tag>out.quitConfirmation = false;</tag>
+      </item>
+    </one-of>
+  </rule>
+
+</grammar>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Türkçe sesli klavye girişi için gramer dosyası -->
+<grammar xml:lang="tr" root="getInput" tag-format="semantics/1.0" version="1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <!-- Kök kural -->
+  <rule id="getInput" scope="public">
+    <one-of>
+      <item>
+        <ruleref uri="#letter" />
+        <tag>out.inputLetter = rules.letter;</tag>
+      </item>
+      <item>
+        <ruleref uri="#special"/>
+        <tag>out.inputLetter = rules.special;</tag>
+      </item>
+      <item>
+        <ruleref uri="#capsLock"/>
+        <tag>out.capsLock = rules.capsLock;</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="letter">
+    <one-of>
+      <item>
+        <one-of>
+          <item>ali</item>
+          <item>a</item>
+        </one-of>
+        <tag>out = "A";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>berk</item>
+          <item>b</item>
+        </one-of>
+        <tag>out = "B";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>can</item>
+          <item>c</item>
+        </one-of>
+        <tag>out = "C";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>deniz</item>
+          <item>d</item>
+        </one-of>
+        <tag>out = "D";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>ece</item>
+          <item>e</item>
+        </one-of>
+        <tag>out = "E";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>fatoş</item>
+          <item>f</item>
+        </one-of>
+        <tag>out = "F";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>gül</item>
+          <item>g</item>
+        </one-of>
+        <tag>out = "G";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>hilal</item>
+          <item>h</item>
+        </one-of>
+        <tag>out = "H";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>isa</item>
+          <item>i</item>
+        </one-of>
+        <tag>out = "I";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>jülide</item>
+          <item>j</item>
+        </one-of>
+        <tag>out = "J";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>kadir</item>
+          <item>k</item>
+        </one-of>
+        <tag>out = "K";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>levent</item>
+          <item>l</item>
+        </one-of>
+        <tag>out = "L";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>mehmet</item>
+          <item>m</item>
+        </one-of>
+        <tag>out = "M";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>nazlı</item>
+          <item>n</item>
+        </one-of>
+        <tag>out = "N";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>osman</item>
+          <item>o</item>
+        </one-of>
+        <tag>out = "O";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>pelin</item>
+          <item>p</item>
+        </one-of>
+        <tag>out = "P";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>queen</item>
+          <item>q</item>
+        </one-of>
+        <tag>out = "Q";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>recep</item>
+          <item>r</item>
+        </one-of>
+        <tag>out = "R";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>seda</item>
+          <item>s</item>
+        </one-of>
+        <tag>out = "S";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>tuncay</item>
+          <item>t</item>
+        </one-of>
+        <tag>out = "T";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>umut</item>
+          <item>u</item>
+        </one-of>
+        <tag>out = "U";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>volkan</item>
+          <item>v</item>
+        </one-of>
+        <tag>out = "V";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>walt</item>
+          <item>w</item>
+        </one-of>
+        <tag>out = "W";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>eks</item>
+          <item>x</item>
+        </one-of>
+        <tag>out = "X";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>yusuf</item>
+          <item>y</item>
+        </one-of>
+        <tag>out = "Y";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>zeki</item>
+          <item>z</item>
+        </one-of>
+        <tag>out = "Z";</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="special">
+    <one-of>
+      <item>
+        <item repeat="0-1">ekle</item>
+        <one-of>
+          <item>boşluk</item>
+          <item>space</item>
+        </one-of>
+        <tag>out = "Space";</tag>
+      </item>
+
+      <item>
+        <item repeat="0-1">sil</item>
+        <one-of>
+          <item>geri</item>
+          <item>backspace</item>
+          <item>geri al</item>
+        </one-of>
+        <tag>out = "Backspace";</tag>
+      </item>
+
+      <item>
+        <one-of>
+          <item>enter</item>
+          <item>tamamla</item>
+          <item>gönder</item>
+        </one-of>
+        <one-of>
+          <item>form</item>
+          <item>giriş</item>
+        </one-of>
+        <tag>out = "Submit";</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="capsLock">
+    <one-of>
+      <item>
+        büyük harf kilidi
+        <one-of>
+          <item>aç <tag>out = true;</tag></item>
+          <item>kapat <tag>out = false;</tag></item>
+        </one-of>
+      </item>
+
+      <item>
+        <one-of>
+          <item>büyük harf</item>
+          <item>büyük</item>
+        </one-of>
+        <tag>out = true;</tag>
+      </item>
+
+      <item>
+        <one-of>
+          <item>küçük harf</item>
+          <item>küçük</item>
+        </one-of>
+        <tag>out = false;</tag>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

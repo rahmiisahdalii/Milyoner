@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Oyun Sonu sahnesi için gramer -->
+<grammar xml:lang="tr" root="gameOver" tag-format="semantics/1.0" version="1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <!-- KÖK -->
+  <rule id="gameOver">
+    <one-of>
+      <item>
+        <ruleref uri="#playAgain" />
+        <tag>out = rules.playAgain;</tag>
+      </item>
+      <item>
+        <ruleref uri="#quit" />
+        <tag>out = rules.quit;</tag>
+      </item>
+
+      <!-- İçe Aktarmalar -->
+      <item>
+        <ruleref uri="Keyboard.xml#getInput" />
+        <tag>out = rules.latest();</tag>
+      </item>
+      <item>
+        <ruleref uri="Tutorial.xml#showTutorial" />
+        <tag>out = rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- Oyunu tekrar oyna -->
+  <rule id="playAgain">
+    <example>tekrar oyna</example>
+    <example>tekrar başlat</example>
+
+    <one-of>
+      <item>
+        <ruleref uri="MainMenu.xml#playGame" />
+      </item>
+      <item>
+        <one-of>
+          <item>oyna</item>
+          <item>başla</item>
+          <item>dene</item>
+        </one-of>
+        tekrar
+      </item>
+      <item>tekrar oyna</item>
+    </one-of>
+    <tag>out.option = "play-game";</tag>
+  </rule>
+
+  <!-- Ana menüye çık -->
+  <rule id="quit">
+    <example>ana menüye git</example>
+    <example>oyunu bırak</example>
+
+    <one-of>
+      <item>oyunu bırak</item>
+      <item>
+        git
+        <one-of>
+          <item>ana sayfaya</item>
+          <item>ana menüye</item>
+        </one-of>
+      </item>
+      <item>ana menü</item>
+    </one-of>
+    <tag>out.option = "quit-game";</tag>
+  </rule>
+</grammar>

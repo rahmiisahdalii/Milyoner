@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Ana Menü sahnesi için Türkçe gramer dosyası -->
+<grammar xml:lang="tr" root="anaMenu" tag-format="semantics/1.0" version="1.0" xmlns="http://www.w3.org/2001/06/grammar">
+  <!-- Kök kural -->
+  <rule id="anaMenu">
+    <one-of>
+      <item>
+        <ruleref uri="#oyunuBaslat" />
+        <tag>out = rules.oyunuBaslat;</tag>
+      </item>
+      <item>
+        <ruleref uri="#siralamaGoster" />
+        <tag>out = rules.siralamaGoster;</tag>
+      </item>
+      <item>
+        <ruleref uri="#uygulamayiKapat" />
+        <tag>out = rules.uygulamayiKapat;</tag>
+      </item>
+
+      <!-- Başka dosyalardan importlar -->
+      <item>
+        <ruleref uri="Egitim.xml#gosterEgitim" />
+        <tag>out = rules.latest();</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <!-- Yeni oyunu başlat -->
+  <rule id="oyunuBaslat" scope="public">
+    <example>oyunu başlat</example>
+    <example>yeni oyunu aç</example>
+
+    <one-of>
+      <item>
+        <one-of>
+          <item>oyna</item>
+          <item>başlat</item>
+        </one-of>
+        <one-of>
+          <item>oyun</item>
+          <item>oyunu</item>
+          <item>yeni oyun</item>
+        </one-of>
+      </item>
+      <item>yeni oyun</item>
+    </one-of>
+    <tag>out.option = "oyunu-baslat";</tag>
+  </rule>
+
+  <!-- Sıralama tablosunu göster/gizle -->
+  <rule id="siralamaGoster">
+    <example>sıralamayı göster</example>
+    <example>sıralamayı gizle</example>
+    <example>geri dön</example>
+
+    <one-of>
+      <item>
+        <ruleref uri="Ortak.xml#gosterKomutlari" />
+        <ruleref uri="#siralamaTablosu" />
+        <tag>out.siralama = "siralama-goster";</tag>
+      </item>
+      <item>
+        <one-of>
+          <item>
+            <ruleref uri="Ortak.xml#gizleKomutlari" />
+            <ruleref uri="#siralamaTablosu" />
+          </item>
+          <item>geri dön</item>
+          <item>ana sayfaya git</item>
+          <item>ana menüye git</item>
+          <item>ana menü</item>
+        </one-of>
+        <tag>out.siralama = "siralama-gizle";</tag>
+      </item>
+    </one-of>
+  </rule>
+
+  <rule id="siralamaTablosu">
+    <item repeat="0-1">bu</item>
+    <one-of>
+      <item>sıralama</item>
+      <item>sıralama tablosu</item>
+    </one-of>
+  </rule>
+
+  <!-- Uygulamayı kapat -->
+  <rule id="uygulamayiKapat">
+    <example>uygulamayı kapat</example>
+
+    <one-of>
+      <item>kapat</item>
+      <item>çık</item>
+      <item>kapan</item>
+      <item>kapatılıyor</item>
+    </one-of>
+
+    <item repeat="0-1">bu</item>
+
+    <one-of>
+      <item>uygulama</item>
+      <item>oyun</item>
+    </one-of>
+    <tag>out.option = "uygulamayi-kapat";</tag>
+  </rule>
+</grammar>
