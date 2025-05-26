@@ -173,12 +173,15 @@ public class GameController : MonoBehaviour
             .Where(q => !usedQuestions.Any(uq => uq.question == q.question))
             .ToList();
 
-        if (unusedQuestions.Count == 0)
-        {
-            Debug.Log("Tüm sorular gösterildi.");
-            statusText.text = "Tüm sorular gösterildi.";
-            return;
-        }
+if (unusedQuestions.Count == 0)
+{
+    Debug.Log("Tüm sorular gösterildi.");
+    statusText.text = "Tüm sorular gösterildi.";
+    
+    sceneController.GameOver();
+    return;
+}
+
 
         int randomIndex = UnityEngine.Random.Range(0, unusedQuestions.Count);
         currentQuestion = unusedQuestions[randomIndex];
